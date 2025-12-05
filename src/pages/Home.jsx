@@ -22,9 +22,11 @@ export default function Home() {
       <label>User: </label>
       <select value={user} onChange={(e) => setUser(e.target.value)}>
         <option>Guest</option>
-        <option>Ana</option>
-        <option>Budi</option>
-        <option>Charlie</option>
+        <option>Adit Pratama</option>
+        <option>Rani Lestari</option>
+        <option>Bima Saputra</option>
+        <option>Salsa Ayu</option>
+        <option>Dito Wirawan</option>
       </select>
 
       <ul>

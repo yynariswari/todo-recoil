@@ -3,9 +3,10 @@ import { atom } from "recoil";
 export const todoListState = atom({
   key: "todoListState",
   default: [
-    { id: 1, title: "Belajar React", votes: 5 },
-    { id: 2, title: "Belajar Recoil", votes: 3 },
-    { id: 3, title: "Belajar Routing", votes: 1 },
+    { id: 1, title: "Belajar React Context", votes: 0 },
+    { id: 2, title: "Kerjakan Modul 32", votes: 0 },
+    { id: 3, title: "Setor Tugas todo list", votes: 0 },
+    { id: 4, title: "Review Materi Javascript", votes: 0 },
   ],
 });
 
